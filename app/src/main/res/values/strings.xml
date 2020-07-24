@@ -1,0 +1,57 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Tour Guide</string>
+
+    <!-- Tab Titles -->
+    <string name="top_attractions">Top Attractions</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="public_places">Public Places</string>
+
+    <!-- Top Attractions -->
+    <string name="title_art_in_island">Art In Island</string>
+    <string name="desc_art_in_island">Visit one of the biggest 3D interactive museums in the world.</string>
+    <string name="loc_art_in_island">Cubao, Quezon City</string>
+    <string name="link_art_in_island">http://thepacuanderers.blogspot.com/2015/04/for-love-of-art-and-illusions-art-in.html</string>
+
+    <string name="title_circle_of_fun">Circle of Fun</string>
+    <string name="desc_circle_of_fun">Whimsical amusement park offering rides for all ages.</string>
+    <string name="loc_circle_of_fun">Diliman, Quezon City</string>
+    <string name="link_circle_of_fun">https://www.bannister.org/coasters/trips/2012/0603.htm</string>
+
+    <!-- Restaurants -->
+    <string name="title_manam">Crisostomo</string>
+    <string name="desc_manam">Turn of the century filipino dining</string>
+    <string name="loc_manam">Fairview, Quezon City</string>
+    <string name="link_crisostomo">https://www.zomato.com/manila/crisostomo-novaliches-quezon-city/menu</string>
+
+    <string name="title_kuya_j">Kuya J</string>
+    <string name="desc_kuya_j">A casual dining restaurant that offers great Filipino
+        gastronomic delights.</string>
+    <string name="loc_kuya_j">Project 7, Quezon City</string>
+    <string name="link_kuya_j">https://www.zomato.com/manila/kuya-j-project-7-quezon-city</string>
+
+    <string name="title_maxs_restaurant">Max\'s Restaurant</string>
+    <string name="desc_maxs_restaurant">Serves a range of delicious chicken, rice bowls,
+        pancit and more.</string>
+    <string name="loc_maxs_restaurant">Tomas Morato, Quezon City</string>
+    <string name="link_maxs_restaurant">https://www.zomato.com/manila/maxs-restaurant-tomas-morato-quezon-city/photos</string>
+
+    <!-- Public Places -->
+    <string name="title_la_mesa_eco_park">La Mesa Eco Park</string>
+    <string name="desc_la_mesa_eco_park">A wild jungle covered into a forested
+        recreation park in 2004.</string>
+    <string name="loc_la_mesa_eco_park">North Fairview, Quezon City</string>
+    <string name="link_la_mesa_eco_park">https://www.vigattintourism.com/tourism/articles/La-Mesa-Watershed-and-Eco-Park-The-Citys-Well-liked-Attraction</string>
+
+    <string name="title_quezon_memorial_circle">Quezon Memorial Circle</string>
+    <string name="desc_quezon_memorial_circle">Located inside a large traffic
+        circle in the shape of an ellipse.</string>
+    <string name="loc_quezon_memorial_circle">Diliman, Quezon City</string>
+    <string name="link_quezon_memorial_circle">https://tribune.net.ph/index.php/2019/08/10/tiangge-free-quezon-memorial-circle/</string>
+
+    <string name="title_na_parks">Ninoy Aquino Parks and Wildlife Center</string>
+    <string name="desc_na_parks">A 22.7-hectare zoological and botanical
+        garden.</string>
+    <string name="loc_na_parks">Diliman, Quezon City</string>
+    <string name="link_na_parks">https://www.photoblog.com/whorhei/2017/03/03/ninoy-aquino-parks-and-wildlife-center/</string>
+</resources>
