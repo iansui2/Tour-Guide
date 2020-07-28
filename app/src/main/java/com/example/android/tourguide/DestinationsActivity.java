@@ -6,14 +6,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.tabs.TabLayout;
 
-public class MainActivity extends AppCompatActivity {
+public class DestinationsActivity extends AppCompatActivity {
     private Toolbar toolBar;
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
@@ -21,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_destinations);
 
         toolBar = (Toolbar) findViewById(R.id.toolBar);
         setSupportActionBar(toolBar);
@@ -40,14 +42,14 @@ public class MainActivity extends AppCompatActivity {
                 {
                     case R.id.home:
                         item.setChecked(true);
-                        Intent homeIntent = new Intent(MainActivity.this, MainActivity.class);
+                        Intent homeIntent = new Intent(DestinationsActivity.this, MainActivity.class);
                         startActivity(homeIntent);
                         drawerLayout.closeDrawers();
                         return true;
 
                     case R.id.destination:
                         item.setChecked(true);
-                        Intent destinationIntent = new Intent(MainActivity.this, DestinationsActivity.class);
+                        Intent destinationIntent = new Intent(DestinationsActivity.this, DestinationsActivity.class);
                         startActivity(destinationIntent);
                         drawerLayout.closeDrawers();
                         return true;
@@ -56,6 +58,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
+
+        CategoryAdapter adapter = new CategoryAdapter(this, getSupportFragmentManager());
+
+        viewPager.setAdapter(adapter);
+
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+
+        tabLayout.setupWithViewPager(viewPager);
     }
 
     @Override

@@ -34,7 +34,7 @@ public class PlacesAdapter extends ArrayAdapter<Places> {
         TextView locationTextView = (TextView) listItemView.findViewById(R.id.location);
         locationTextView.setText(currentPlace.getLocationId());
 
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.destinationImage);
         imageView.setImageResource(currentPlace.getImageResourceId());
 
         TextView sourceTextView = (TextView) listItemView.findViewById(R.id.source);
