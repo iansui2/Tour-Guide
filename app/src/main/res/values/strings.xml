@@ -22,6 +22,12 @@
     <string name="loc_circle_of_fun">Diliman, Quezon City</string>
     <string name="link_circle_of_fun">https://www.bannister.org/coasters/trips/2012/0603.htm</string>
 
+    <string name="title_ateneo_art_gallery">Ateneo Art Gallery</string>
+    <string name="desc_ateneo_art_gallery">It serves as an art resource for the university community and the general
+        public as well.</string>
+    <string name="loc_ateneo_art_gallery">Diliman, Quezon City</string>
+    <string name="link_ateneo_art_gallery">https://ateneoartgallery.com/</string>
+
     <!-- Restaurants -->
     <string name="title_manam">Crisostomo</string>
     <string name="desc_manam">Authentic Filipino cuisine is served with a sophisticated twist</string>

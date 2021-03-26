@@ -1,18 +1,17 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.fragments;
 
 import android.os.Bundle;
 
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.Toast;
+
+import com.example.android.tourguide.R;
+import com.example.android.tourguide.adapters.PlacesAdapter;
+import com.example.android.tourguide.data.Places;
 
 import java.util.ArrayList;
 
@@ -30,8 +29,11 @@ public class TopAttractionsFragment extends Fragment {
                     R.string.loc_art_in_island, R.drawable.art_in_island,
                     R.string.link_art_in_island));
         places.add(new Places(R.string.title_circle_of_fun, R.string.desc_circle_of_fun,
-                    R.string.loc_circle_of_fun, R.drawable.circle_of_fun,
-                    R.string.link_circle_of_fun));
+                R.string.loc_circle_of_fun, R.drawable.circle_of_fun,
+                R.string.link_circle_of_fun));
+        places.add(new Places(R.string.title_ateneo_art_gallery, R.string.desc_ateneo_art_gallery,
+                R.string.loc_ateneo_art_gallery, R.drawable.ateneo_art_gallery,
+                R.string.link_ateneo_art_gallery));
 
         PlacesAdapter adapter = new PlacesAdapter(getActivity(), places);
 

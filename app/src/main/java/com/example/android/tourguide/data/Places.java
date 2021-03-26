@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.data;
 
 public class Places {
     private int mTitleId;

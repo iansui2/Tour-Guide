@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.fragments;
 
 import android.os.Bundle;
 
@@ -8,6 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+
+import com.example.android.tourguide.R;
+import com.example.android.tourguide.adapters.PlacesAdapter;
+import com.example.android.tourguide.data.Places;
 
 import java.util.ArrayList;
 
